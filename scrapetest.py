@@ -118,8 +118,6 @@ print("Article IDs:", ids)
 import os
 from openai import OpenAI
 
-# Set up your OpenAI API key
-#openai.api_key = sk-proj-0vLDGOQityYfQsNbNfKnT3BlbkFJxIgmqxz7HZzXSqIqoolc
 # Directory containing text files
 directory = '/Users/farhanmukit/Desktop/ML Project/Articles'
 
