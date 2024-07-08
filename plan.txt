@@ -1,0 +1,9 @@
+ - store articles in a vectorized Database,
+
+    - Reduces token cost by orders of magnitude, 
+
+
+Prompt PipeLine:
+
+Prompt -> vectorized embeddings-> reduce to key terms usable for pmc API 
+-> store all articles in a vectorized database including (summaries possible as well)
