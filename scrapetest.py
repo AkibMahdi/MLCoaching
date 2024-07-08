@@ -140,9 +140,7 @@ combined_input = prompt + "\n\n" + soup.get_text()
 
 
 # if len(combined_input.split()) > 8000:
-#     raise ValueError("The combined input exceeds the token limit for GPT-4")
-#OpenAI().api_key = 'sk-proj-uFrV5wTV7VLyBzss80nhT3BlbkFJsE1Mm7ID7mKlu6JwgxyL'
-# Send the request to OpenAI
+#     raise ValueError("The combined input exceeds the token limit for GPT-4"# Send the request to OpenAI
 response = OpenAI().chat.completions.create(
     model="gpt-4-turbo",
     messages=[
